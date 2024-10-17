@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit7LearningActivityBristo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{1122DCF6-D265-43D3-8406-E6E3C26F8AAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingService", "OrderProcessingService\OrderProcessingService.csproj", "{49E574CC-5B13-4408-93FC-24A7D218D921}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{813BBEB0-1B41-483F-93F0-6E88E4747F86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1122DCF6-D265-43D3-8406-E6E3C26F8AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1122DCF6-D265-43D3-8406-E6E3C26F8AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1122DCF6-D265-43D3-8406-E6E3C26F8AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E574CC-5B13-4408-93FC-24A7D218D921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E574CC-5B13-4408-93FC-24A7D218D921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E574CC-5B13-4408-93FC-24A7D218D921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E574CC-5B13-4408-93FC-24A7D218D921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813BBEB0-1B41-483F-93F0-6E88E4747F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813BBEB0-1B41-483F-93F0-6E88E4747F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813BBEB0-1B41-483F-93F0-6E88E4747F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813BBEB0-1B41-483F-93F0-6E88E4747F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

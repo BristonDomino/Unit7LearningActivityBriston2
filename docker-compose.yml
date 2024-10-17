@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  productservice:
+    build:
+      context: ../ProductService   # Path to the ProductService folder
+      dockerfile: Dockerfile        # Dockerfile to build this service
+    ports:
+      - "5001:80"                   # Mapping port 5001 to the internal port 80
+
+  orderprocessingservice:
+    build:
+      context: ../OrderProcessingService  # Path to the OrderProcessingService folder
+      dockerfile: Dockerfile              # Dockerfile to build this service
+    ports:
+      - "5002:80"                         # Mapping port 5002 to the internal port 80
